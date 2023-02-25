@@ -29,57 +29,57 @@
         </div>
       </div>
       <button type="button" class="button profile__add-button">
-        <img src="./images/addButton.svg" alt="Плюс"></button>
+        <img src="./images/Плюс.png" alt="Плюс"></button>
     </section>
 
     <section class="places">
-      <div class="place">
+      <article class="place">
         <img src="./images/elbrus.jpg" alt="Эльбрус" class="place__image">
         <div class="place__description">
-          <p class="place__name">Эльбрус</p>
+          <h2 class="place__name">Эльбрус</h2>
           <button type="button" class="place__like"></button>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <img src="./images/goraDombay.jpg" alt="Домбай" class="place__image">
         <div class="place__description">
-          <p class="place__name">Домбай</p>
+          <h2 class="place__name">Домбай</h2>
           <button type="button" class="place__like"></button>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <img src="./images/goraKara4ay.jpg" alt="Карачаевск" class="place__image">
         <div class="place__description">
-          <p class="place__name">Карачаевск</p>
+          <h2 class="place__name">Карачаевск</h2>
           <button type="button" class="place__like"></button>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <img src="./images/ОзероВгорах.jpg" alt="Ледник" class="place__image">
         <div class="place__description">
-          <p class="place__name">Ледник</p>
+          <h2 class="place__name">Ледник</h2>
           <button type="button" class="place__like"></button>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <img src="./images/Лондон.jpg" alt="Лондон" class="place__image">
         <div class="place__description">
-          <p class="place__name">Лондон</p>
+          <h2 class="place__name">Лондон</h2>
           <button type="button" class="place__like"></button>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <img src="./images/Пальмы.jpg" alt="Пальмы" class="place__image">
         <div class="place__description">
-          <p class="place__name">Пальмы</p>
+          <h2 class="place__name">Пальмы</h2>
           <button type="button" class="place__like place__like_active"></button>
         </div>
-      </div>
+      </article>
     </section>
   </main>
   <footer class="footer">
@@ -91,14 +91,14 @@
       <button class="popup__close" type="button"></button>
       <h3 class="popup__title">Редактировать профиль</h3>
       <form class="popup__form" action="#" method="POST" name="userInfo">
-        <input type="text" maxlength="16" placeholder="Имя (не более 16 символов)"
-          class="popup__input popup__input_type_name" required>
-        <input type="text" placeholder="О себе" class="popup__input popup__input_type_job" required>
+        <input type="text" placeholder="Имя" name="full_name" class="popup__input popup__input_type_name" required>
+        <input type="text" placeholder="О себе" name="about_yourself" class="popup__input popup__input_type_job"
+          required>
         <button type="submit" class="button popup__button">Сохранить</button>
       </form>
     </div>
   </div>
-  <script src="./js/script.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
