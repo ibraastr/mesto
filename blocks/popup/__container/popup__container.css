@@ -1,16 +1,12 @@
 .popup__container {
-  /*width: 100%;*/
   max-width: 430px;
   height: 330px;
   background-color: #fff;
   border-radius: 10px;
   position: relative;
-  border-top: 34px #fff solid;
-  border-bottom: 37px #fff solid;
-  border-left: 36px #fff solid;
-  border-right: 36px #fff solid;
+  padding: 36px 36px 37px 36px;
   box-sizing: border-box;
-  box-shadow: 20px 20px 50px 30px rgb(196, 255, 192);
+  box-shadow: 0 0 25px rgb(0 0 0 0.15);
 }
 
 
@@ -18,10 +14,6 @@
   .popup__container {
     max-width: 282px;
     height: 322px;
-    padding: 0;
-    border-top: 25px #ffffff solid;
-    border-bottom: 25px #fff solid;
-    border-left: 22px #fff solid;
-    border-right: 22px #fff solid;
+    padding: 25px 22px 25px 22px;
   }
 }

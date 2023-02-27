@@ -8,8 +8,8 @@
   width: 32px;
   height: 32px;
   position: absolute;
-  top: -73px;
-  right: -80px;
+  top: -18px;
+  right: -40px;
   cursor: pointer;
   transition: all linear .2s;
   padding: 0;
@@ -23,7 +23,7 @@
 @media screen and (max-width: 578px) {
   .popup__close {
     background-image: url(../../../images/CloseIcon.png);
-    top: -66px;
-    right: -28px;
+    top: -36px;
+    right: -8px;
   }
 }
