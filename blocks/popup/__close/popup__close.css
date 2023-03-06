@@ -22,7 +22,7 @@
 /* У меня на компе все нормально, заливаю стиль заново , может поможет */
 @media screen and (max-width: 578px) {
   .popup__close {
-    background-image: url(../../../images/closeIcon320.svg);
+    background-image: url(../../../images/CloseIcon320.svg);
     width: 20px;
     height: 20px;
     top: -36px;
