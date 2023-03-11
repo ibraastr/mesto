@@ -3,7 +3,7 @@
   max-width: 880px;
   height: 74px;
   margin: auto;
-  margin-top: 45px;
+  padding-top: 45px;
 }
 
 
@@ -24,6 +24,6 @@
   .header {
     max-width: 320px;
     height: 56px;
-    margin-top: 28px;
+    padding-top: 28px;
   }
 }

@@ -1,3 +1,11 @@
+@import url('./__description/place__description.css');
+@import url('./__image/place__image.css');
+@import url('./__delete-card/place__delete-card.css');
+@import url('./__like/place__like.css');
+@import url('./__like/_active/place__like_active.css');
+@import url('./__name/place__name.css');
+
+
 
 .place {
   max-width: 282px;

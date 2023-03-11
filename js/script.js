@@ -21,28 +21,28 @@ const urlInput = document.querySelector('.popup__input_type_url');
 // Шесть карточек «из коробки»
 const initialCards = [
   {
-      name: 'Архыз',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
+    name: 'Архыз',
+    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
   },
   {
-      name: 'Челябинская область',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg'
+    name: 'Челябинская область',
+    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg'
   },
   {
-      name: 'Иваново',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg'
+    name: 'Иваново',
+    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg'
   },
   {
-      name: 'Камчатка',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg'
+    name: 'Камчатка',
+    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg'
   },
   {
-      name: 'Холмогорский район',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
+    name: 'Холмогорский район',
+    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
   },
   {
-      name: 'Байкал',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
+    name: 'Байкал',
+    link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
   }
 ];
 
@@ -62,7 +62,7 @@ function createCard(name, link) {
 
 
 // функция добавления шаблонных карточек 'из коробки'
-function addTemplateCards () {
+function addTemplateCards() {
   for (let i = 0; i < initialCards.length; i++) {
     const card = initialCards[i];
     const name = card.name;
@@ -113,7 +113,7 @@ function imgClosed() {
 }
 
 // функция удаления карточки
-document.querySelector('.places').onclick = function(e) {
+document.querySelector('.places').onclick = function (e) {
   const btn = e.target.closest('.place__delete-card');
   const card = e.target.closest('.place');
   if (!btn) {
@@ -124,7 +124,7 @@ document.querySelector('.places').onclick = function(e) {
 
 
 // функция обработчик лайка
-function handleClickLike (evt) {
+function handleClickLike(evt) {
   evt.target.classList.toggle('place__like_active');
 }
 
@@ -169,6 +169,4 @@ popupClose.addEventListener('click', closePopup);
 popupImgclose.addEventListener('click', imgClosed);
 
 
-// комментарии к коду как МОЖНО УЛУЧШИТЬ приняты к сведению,
-//  буду их исправлять до следующего спринта,
-//  а то сейчас по работе плотно не получается этим заняться
+
